@@ -56,23 +56,22 @@ sloc)  4.19 KB
       <div class="jumbotron">
         <div class="container">
           <h1 class="display-3">Big O Notation</h1>
-          <h3>Big O Notation</h3>
           <p> Big 0 notation is used to describe the performance or complexity of an algorithm. Big O specifically describes 
             the worst-case scenario, and can be used to describe the execution time required or the space used by an algorithm.
           </p>
-          <h4> O(1) </h4>
+          <h2> O(1) </h2>
           <p> O(1) describes an algorithm that will always execute in the same time (or space) regardless of the size of the imput data set. </p>
-          <h4> O(N) </h4>
+          <h2> O(N) </h2>
           <p> O(N) describes an algorithm whose performance will grow linearly and in direcr proportion to the size of the input data set.
             Big O NOtation will always assume the upper limit where the algorithm will perform the maximum number of iterations. </p>
-          <h4> O(N<sup<2</sup>)</h4>
+          <h2> O(N<sup>2</sup>)</h2>
         <p> O(N<sup>2</sup>) represents an algorithm whose performanxe is directly proportional to the square of the size
           of the input data set. This is common with algorithms that involce nested iterations over the data set. 
           Deeper nested iterations will result in O(N<sup>3</sup>), O(N<sup>4</sup>), etc. </p>
-        <h4>O(2<sup>N</sup>)</h4>
+        <h2>O(2<sup>N</sup>)</h2>
         <p>O(2<sup>N</sup>) denotes an algorithm whose growth doubles with each addition to the input data set. The growth curve of 
           an O(2<sup>N</sup>) function is exponential - startign off vert shallow, then rising meteorically. </p>
-        <h4> Logarithms </h4>
+        <h2> Logarithms </h2>
         <p> Binary search is a technique used to search sorted data sets. It works by selecting the middle element of the 
           data set, essentially the median, and compares it against a target value. If the values match it will return success
           . If the target value is higher than the value of the probe element it will take the upper half of the data set and 
@@ -85,7 +84,7 @@ sloc)  4.19 KB
           seconds, and a data set containing 1000 items will take three seconds. Doubling the size of the input data has
           little effect on its growth as after a single iteration of the algorithm the data set will be halved and therefore on a par with an input 
           data set half the size. This makes algorithms like binary search extremely efficient when dealing with large data sets. </p>
-        <h3>Timing</h3>
+        <h2>Timing</h2>
           <p>
               When discussing the efficiency of code, it is important to consider the readability of the code. But, it is also 
               often important to consider the runtime of a program. For example: recursion is often considered a more elegant 
